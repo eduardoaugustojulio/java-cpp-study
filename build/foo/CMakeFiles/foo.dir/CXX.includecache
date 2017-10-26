@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/geckos/Documents/java-cpp-study/foo/src/foo.cpp
+iostream
+-
+foo.h
+/home/geckos/Documents/java-cpp-study/foo/src/foo.h
+
+/home/geckos/Documents/java-cpp-study/foo/src/foo.h
+

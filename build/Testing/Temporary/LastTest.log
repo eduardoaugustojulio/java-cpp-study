@@ -1,0 +1,22 @@
+Start testing: Oct 26 15:00 BRST
+----------------------------------------------------------
+1/1 Testing: run-jni
+1/1 Test: run-jni
+Command: "/usr/lib/jvm/java-8-oracle/bin/java" "-cp" "java-jni/java/bin" "-Djava.library.path=/home/geckos/Documents/java-cpp-study/build/java-jni" "arm.test.app.Main"
+Directory: /home/geckos/Documents/java-cpp-study/build
+"run-jni" start time: Oct 26 15:00 BRST
+Output:
+----------------------------------------------------------
+Exception in thread "main" java.lang.UnsatisfiedLinkError: arm.test.lib.FooClass.init(I)V
+	at arm.test.lib.FooClass.init(Native Method)
+	at arm.test.lib.FooClass.<init>(FooClass.java:13)
+	at arm.test.app.Main.main(Main.java:9)
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Failed.
+"run-jni" end time: Oct 26 15:00 BRST
+"run-jni" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 26 15:00 BRST

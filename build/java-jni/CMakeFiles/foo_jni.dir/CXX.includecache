@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../foo/include/foo.h
+
+/home/geckos/Documents/java-cpp-study/java-jni/c/jni_wrapper.cpp
+foo.h
+/home/geckos/Documents/java-cpp-study/java-jni/c/foo.h
+FooClass_jni.h
+/home/geckos/Documents/java-cpp-study/java-jni/c/FooClass_jni.h
+
+/usr/lib/jvm/java-8-oracle/include/jni.h
+stdio.h
+-
+stdarg.h
+-
+jni_md.h
+/usr/lib/jvm/java-8-oracle/include/jni_md.h
+
+/usr/lib/jvm/java-8-oracle/include/linux/jni_md.h
+
+java-jni/include/FooClass_jni.h
+jni.h
+-
+
