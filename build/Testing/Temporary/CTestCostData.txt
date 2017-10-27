@@ -1,3 +1,0 @@
-run-jni 0 0
----
-run-jni

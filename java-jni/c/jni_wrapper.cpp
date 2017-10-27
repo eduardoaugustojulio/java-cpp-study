@@ -26,25 +26,25 @@ static void _set_self(JNIEnv *env, jobject thisObj, Foo *self)
 }
 
 
-JNIEXPORT void JNICALL Java_arm_test_lib_Foo_init(JNIEnv *env, jobject thisObj, jint nb)
+JNIEXPORT void JNICALL Java_arm_test_lib_FooClass_init(JNIEnv *env, jobject thisObj, jint nb)
 {
 	Foo *self = new Foo(nb);
     _set_self(env, thisObj, self);
 }
 
-JNIEXPORT jint JNICALL Java_arm_test_lib_Foo_getValue(JNIEnv *env, jobject thisObj)
+JNIEXPORT jint JNICALL Java_arm_test_lib_FooClass_getValue(JNIEnv *env, jobject thisObj)
 {
 	Foo *self = _get_self(env, thisObj);
     return self->getValue();
 }
 
-JNIEXPORT void JNICALL Java_arm_test_lib_Foo_increment(JNIEnv *env, jobject thisObj)
+JNIEXPORT void JNICALL Java_arm_test_lib_FooClass_increment(JNIEnv *env, jobject thisObj)
 {
 	Foo *self = _get_self(env, thisObj);
     self->increment();
 }
 
-JNIEXPORT void JNICALL Java_arm_test_lib_Foo_finalize(JNIEnv *env, jobject thisObj)
+JNIEXPORT void JNICALL Java_arm_test_lib_FooClass_finalize(JNIEnv *env, jobject thisObj)
 {
 	Foo *self = _get_self(env, thisObj);
     if(self != NULL)

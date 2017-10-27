@@ -77,7 +77,7 @@ IF(BUILD_TESTS)
         COMMAND
             "${Java_JAVA_EXECUTABLE}"
             -cp java-jni/java/bin
-            -Djava.library.path=${CMAKE_CURRENT_BINARY_DIR}
+            -Djava.library.path=java-jni
             arm.test.app.Main
         WORKING_DIRECTORY "${CMAKE_BINARY_DIR}")
 ENDIF()

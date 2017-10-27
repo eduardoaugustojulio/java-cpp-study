@@ -1,6 +1,0 @@
-# Hashes of file build rules.
-0d50ff1cfee627f7e2d1b1552b2d22f1 java-jni/CMakeFiles/JavaJNIClasses
-0d50ff1cfee627f7e2d1b1552b2d22f1 java-jni/CMakeFiles/JavaJNIHeaders
-cfb51241e27eb27bdbfa3d1fee1d8123 java-jni/include/FooClass_jni.h
-6f448720fe88277415aa9a2296950327 java-jni/java/bin/arm/test/app/Main.class
-0f38b99a4210002ae9df16c1493b691d java-jni/java/bin/arm/test/lib/FooClass.class

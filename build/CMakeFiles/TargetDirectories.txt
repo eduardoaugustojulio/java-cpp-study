@@ -1,4 +1,0 @@
-/home/geckos/Documents/java-cpp-study/build/java-jni/CMakeFiles/foo_jni.dir
-/home/geckos/Documents/java-cpp-study/build/java-jni/CMakeFiles/JavaJNIHeaders.dir
-/home/geckos/Documents/java-cpp-study/build/java-jni/CMakeFiles/JavaJNIClasses.dir
-/home/geckos/Documents/java-cpp-study/build/foo/CMakeFiles/foo.dir

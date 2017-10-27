@@ -1,1 +1,0 @@
-/usr/bin/c++  -fPIC   -shared -Wl,-soname,libfoo_jni.so -o libfoo_jni.so CMakeFiles/foo_jni.dir/c/jni_wrapper.cpp.o ../foo/libfoo.so -Wl,-rpath,/home/geckos/Documents/java-cpp-study/build/foo 
